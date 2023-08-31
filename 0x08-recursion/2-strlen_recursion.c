@@ -2,11 +2,12 @@
 
 /**
  * _strlen_recursion - Returns the length of a string
- * @s - string whose length is to be found
+ * @s: string to count
  *
- * return: integer value
+ * Return: integer value
  */
 int _strlen_recursion(char *s)
+
 {
 	if (*s == '\0')
 	{
